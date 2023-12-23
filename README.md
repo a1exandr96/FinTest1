@@ -25,7 +25,7 @@ _Для удобства проверки массивов выбрал switch ,
 
 1. Блок-схема:
 
-![Блок-схема]("C:\Users\Alex\Desktop\Block_diagram.drawio.png")
+![Блок-схема]("C:\Users\Alex\Desktop\Fin test\Скрин.jpeg")
 
 2. Код программы:
 
