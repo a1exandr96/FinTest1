@@ -17,3 +17,26 @@ switch (User)
         Console.WriteLine($"{User} - Такой команды нет");
         break;
 }
+
+int NewArr = 0;
+for (int i = 0; i <= array.Length - 1; i++)
+{
+    if (array[i].Length <= 3) NewArr++;
+}
+
+string[] newArray = new string[NewArr];
+int idx = 0;
+
+for (int i = 0; i <= array.Length - 1; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        newArray[idx] = array[i];
+        idx++;
+    }
+}
+
+PrintArray(array);
+Console.Write("→ ");
+PrintArray(newArray);
+
