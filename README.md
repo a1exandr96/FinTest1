@@ -25,7 +25,7 @@ _Для удобства проверки массивов выбрал switch ,
 
 1. Блок-схема:
 
-![Блок-схема]("C:\Users\Alex\Desktop\Fin test\Скрин.jpeg")
+![Блок-схема]("https://github.com/a1exandr96/FinTest1/blob/master/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD.jpeg")
 
 2. Код программы:
 
