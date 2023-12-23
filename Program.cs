@@ -40,3 +40,31 @@ PrintArray(array);
 Console.Write("→ ");
 PrintArray(newArray);
 
+// Функция вывода команд для работы с программой
+void Commands()
+{
+    Console.WriteLine();
+    Console.WriteLine("Команды:");
+    Console.WriteLine("1 – Выбрать массив: [“Hello”, “2”, “world”, “:-)”]");
+    Console.WriteLine("2 – Выбрать массив: [“1234”, “1567”, “-2”, “computer science”]");
+    Console.WriteLine("3 – Выбрать массив: [“Russia”, “Denmark”, “Kazan”]");
+    Console.WriteLine();
+}
+
+// Функция ввода
+string ReadInput(string msg)
+{
+    Console.Write(msg);
+    return Console.ReadLine();
+}
+
+//  Функция вывода массива в терминал
+void PrintArray(string[] array)
+{
+    Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"“{array[i]}”, ");
+    }
+    Console.Write("] ");
+}
